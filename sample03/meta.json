@@ -1,0 +1,67 @@
+{
+    "id": "03",
+    "sex": 1,
+    "age": 25,
+    "height": 170,
+    "weight": 67,
+    "rest_bpm": 74.92,
+    "rest_mean_rr": 0.8009,
+    "activities": [
+        {
+            "name": "Sitting",
+            "start_sec": 0,
+            "end_sec": 70
+        },
+        {
+            "name": "Standing",
+            "start_sec": 70,
+            "end_sec": 130
+        },
+        {
+            "name": "Walking",
+            "start_sec": 130,
+            "end_sec": 269
+        },
+        {
+            "name": "Climb UP",
+            "start_sec": 269,
+            "end_sec": 396
+        },
+        {
+            "name": "Walking",
+            "start_sec": 396,
+            "end_sec": 455
+        },
+        {
+            "name": "Climb DOWN",
+            "start_sec": 455,
+            "end_sec": 573
+        },
+        {
+            "name": "Walking",
+            "start_sec": 573,
+            "end_sec": 631
+        },
+        {
+            "name": "Skipping",
+            "start_sec": 631,
+            "end_sec": 748
+        },
+        {
+            "name": "Walking",
+            "start_sec": 748,
+            "end_sec": 808
+        },
+        {
+            "name": "Running",
+            "start_sec": 808,
+            "end_sec": 926
+        },
+        {
+            "name": "Walking",
+            "start_sec": 926,
+            "end_sec": 1046
+        }
+    ],
+    "rest_rmssd": 0.0324
+}
