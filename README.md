@@ -63,6 +63,20 @@ The `rr_time_series_example.png` shows how RR intervals change over the course o
 - `rr_time_series_example.png`: Time series plot of RR intervals over the experimental protocol for one subject
 - `extract_pdf.py`: Utility script for PDF text extraction
 - `sampleXX/`: Individual subject data directories
+  - `meta.json`: Subject demographics and activity timing
+  - `recordXX.csv`: Raw ECG/IMU sensor data (excluded from repository due to size >200MB each)
+
+## Data Availability
+
+**Raw sensor data** (`recordXX.csv` files) are not included in this repository due to their large size (>200MB each). These files contain:
+
+- ECG signals from LA-RA lead (24-bit resolution)
+- 3-axis accelerometer data (LN and WR positions)
+- Gyroscope data (3-axis)
+- Magnetometer data (3-axis)
+- Timestamp data (Unix milliseconds)
+
+To reproduce the analysis, you will need access to the original CSV files. The analysis script (`main.py`) is designed to work with the data structure present in these files.
 
 ## Requirements
 
