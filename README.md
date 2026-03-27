@@ -16,6 +16,12 @@ The dataset consists of 16 subjects (sample00 to sample15), each with:
 - `meta.json`: Subject metadata including age, sex, height, weight, resting heart rate, and activity timestamps
 - `recordXX.csv`: Time-series data from Shimmer sensors including ECG channels, accelerometers, gyroscopes, and magnetometers
 
+## Cohort Summary
+
+- Subjects: 16
+- Average age: 25.0 years
+- Age standard deviation: 1.92 years
+
 ## Experimental Protocol
 
 The actual experimental protocol followed was:
