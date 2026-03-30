@@ -4,6 +4,8 @@
     "age": 25,
     "height": 170,
     "weight": 67,
+    "cardiac_disease": false,
+    "pulmonary_disease": false,
     "rest_bpm": 74.92,
     "rest_mean_rr": 0.8009,
     "activities": [
