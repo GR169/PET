@@ -21,6 +21,7 @@ The dataset consists of 16 subjects (sample00 to sample15), each with:
 - Subjects: 16
 - Average age: 25.0 years
 - Age standard deviation: 1.92 years
+- There are 16 total samples. Samples [01, 13, 14] and [11, 12] belong to the same respective subjects. So we have 13 unique subjects.
 
 ## Experimental Protocol
 
